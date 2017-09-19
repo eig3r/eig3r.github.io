@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Slabo+27px');
+
+#header_hero {
+	  background-image: url("http://i.imgur.com/7gonK6m.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: rgba(0,0,0,.9);
+    padding-top: 50px;
+    padding-right: auto;
+    padding-bottom: 50px;
+    padding-left: auto;
+    width: cover;
+	margin: 0em auto;
+
+}
+
+.header_nav	{
+	padding: 1em 1em;
+	text-align: center;
+	border-bottom: 1px
+	color:	#fff;
+	font-family: "Slabo 27px";
+	background-color: #333;
+	list-style-type: none;
+	
+
+}
+
+#slogan {
+	font-size: 16px;
+	color: #FFAB2C;
+	font-style: italic;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+}
+
+
+main {
+	color:  #333;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Abril Fatface', Georgia, serif;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+p   {
+	font-family: 'Slabo 27px', serif;
+	color: #f2dfa7;
+}
+
+ul  {
+	align: center;
+}
+
+li	{
+	text-align: left;
+	font-family: 'Slabo 27px', serif;
+	color: #f2dfa7;
+	list-style: none;
+}
+
+.link{
+	
+	color:#fff; 
+	text-decoration:none; 
+	font-weight: bold; 
+	border-bottom: 1px solid #fff;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}

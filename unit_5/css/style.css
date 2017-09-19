@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Slabo+27px');
+
+
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {background-color: #E8C66A
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Abril Fatface', Georgia, serif;
+	color: #fff;
+	text-transform: uppercase;
+
+}
+
+.picture	{ 
+	background-color: #FFC675;
+}
+#one {
+	background-color: #FFE2B8;
+}
+
+p   {
+	font-family: 'Slabo 27px', serif;
+	color: #f2dfa7;
+}
+footer	{
+	background-color: #FF957E;
+}
+.description{
+	background-color: #E89C6C;
+}
+
+
