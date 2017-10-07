@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Slabo+27px');
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Abril+Fatface|Slabo+27px|Roboto|Oldenburg');
 #header_hero {
 	  background-image: url("http://i.imgur.com/7gonK6m.jpg");
     -webkit-background-size: cover;
@@ -9,71 +8,106 @@
     background-size: cover;
     background-repeat:no-repeat;
     background-color: rgba(0,0,0,.9);
-    padding-top: 50px;
+    padding-top: 4em;
     padding-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 4em;
     padding-left: auto;
     width: cover;
 	margin: 0em auto;
+	font-size: 16px;
 
 }
 
-.header_nav	{
-	padding: 1em 1em;
-	text-align: center;
-	border-bottom: 1px
-	color:	#fff;
-	font-family: "Slabo 27px";
-	background-color: #333;
-	list-style-type: none;
-	
-
-}
 
 #slogan {
-	font-size: 16px;
-	color: #FFAB2C;
-	font-style: italic;
+	font-size: 1em;
+	color: #fff;
 	text-align: center;
-	font-family: 'Slabo 27px', serif;
+	font-family: Roboto, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;
 }
+/*
+section	{
+	background-color: orange;
+	width: 200px;
+	margin: 2em;
+	padding: 1em 1em;
+	font-family: "Slabo 27px";
+	text-align: center;
+	float: left;*/
 
 
-main {
-	color:  #333;
-}
-
+/*}*/
 
 h1 {
 	text-align: center;
-	font-family: 'Abril Fatface', Georgia, serif;
-	color: #fff;
-	text-transform: uppercase;
+	font-family: 'Pacifico', Georgia, serif;
+	font-size: 2.8em;
+	color: #FFAB2C;
+	letter-spacing: .03em;
+
 
 }
 
-p   {
-	font-family: 'Slabo 27px', serif;
-	color: #f2dfa7;
+h2	{
+	text-align: center;
+	font-family: ;
+	font-size: 1.5em;
+	color: 000;
+
 }
 
-ul  {
-	align: center;
+
+#intro {
+		
+		font-size: 1em;
+		text-align: center;
+		font-family: Oldenburg;
+		width: 80%;
+		margin: auto;
+
 }
 
-li	{
-	text-align: left;
-	font-family: 'Slabo 27px', serif;
-	color: #f2dfa7;
-	list-style: none;
+
+
+.wrapper	{
+	width: 84%;
+	margin:	3%;
+	padding: 5%;
+	background-color: #E0E0E0;
+
+}
+
+.intro_box  {
+	background-color: #FFAB2C;
+	border: .2em solid #E0E0E0;
+	width: 22%;
+	margin: auto;
+/*	padding: 1em 1em;*/
+	font-family: "Slabo 27px";
+	text-align: center;
+	float: left;
+}
+
+
+
+.clearfix:after	{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+
 }
 
 .link{
 	
-	color:#fff; 
+	color:#000; 
 	text-decoration:none; 
 	font-weight: bold; 
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #000;
 
 }
 
