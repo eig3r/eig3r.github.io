@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Abril+Fatface|Slabo+27px|Roboto|Oldenburg');
+#header_hero {
+	  background-image: url("http://i.imgur.com/7gonK6m.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: rgba(0,0,0,.9);
+    padding-top: 2em;
+    padding-right: auto;
+    padding-bottom: 4em;
+    padding-left: auto;
+    width: cover;
+	margin: 0em auto;
+	font-size: 16px;
+
+}
+
+img {
+	max-width: 10%;
+	margin: 2em;
+	padding: 2em 0 0 0;
+}
+
+
+
+nav {
+	width: 100%;
+	text-align: center;
+	height: auto;
+	
+}
+
+nav a {
+	font-family: Roboto, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-size: .8em;
+	color: #e0e0e0;
+	width: 10%;
+	text-align: center;
+	margin: 1em 1em;
+	padding: 1em;
+	text-decoration: none;
+	float: none;
+	display: inline;
+}
+
+nav a:hover {
+	color: #FFAB2C;
+
+}
+
+
+#slogan {
+	font-size: .8em;
+	color: #fff;
+	text-align: center;
+	font-family: Oldenburg, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;	
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Pacifico', Georgia, serif;
+	font-size: 2.8em;
+	color: #EFD05D;
+	letter-spacing: .03em;
+
+
+}
+
+h2	{
+	text-align: center;
+	font-family: ;
+	font-size: 1.5em;
+	color: #403836;
+
+}
+
+
+#intro {
+		
+		font-size: 1em;
+		text-align: center;
+		font-family: Oldenburg;
+		width: 80%;
+		margin: auto;
+		color: #000;
+}
+
+
+.wrapper	{
+	width: 84%;
+	margin:	3%;
+	padding: 5%;
+	background-color: #e0e0e0;
+}
+
+.intro_box  {
+	background-color: #EFD05D;
+	color: #403836;
+	width: 19%;
+	margin: 1.5%;
+	font-family: "Slabo 27px";
+	text-align: center;
+	float: left;
+	padding: 2.5% 1.5% 4.5%;
+	height: 12em;
+}
+
+
+.clearfix:after	{
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.link {
+	
+	color:#000; 
+	text-decoration:none; 
+	font-weight: bold; 
+	border-bottom: 1px solid #000;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+
+@media only screen and (max-width: 830px) {
+
+
+	.intro_box  {
+	width:40%;
+	margin: 1.5%;
+	font-family: "Slabo 27px";
+	text-align: center;
+	float: left;
+	padding: 2.5% 2.5% 4.5%;
+	height: 12em;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+
+
+	nav {
+		
+		text-align: center;
+		margin: auto;
+
+	}
+
+
+	nav a {
+	font-family: Roboto, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: .9em;
+	color: #000;
+	text-align: center;
+	margin: .4em auto;
+	padding: .4em;
+	text-decoration: none;
+	float: none;
+	display: block;
+	background-color: #FFAB2C;
+	width: 50%;
+}
+
+	nav a:hover {
+	color: #fff;
+	}
+
+	#slogan {
+	font-size: .8em;
+/*	color: #fff;
+	text-align: center;
+	font-family: Oldenburg, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .2em;	
+	width: 80%;
+	margin: auto;*/
+
+}
+
+h1 {
+	text-align: center;
+	font-family: Pacifico, Georgia, serif;
+	font-size: 2.3em;
+	color: #FFAB2C;
+	letter-spacing: .02em;
+	width: 80%;
+	margin: auto;
+	line-height: 1.2em;
+	padding: 1em;
+
+}
+
+
+.intro_box  {
+	width: 90%;
+	margin: 2em auto;
+	font-family: "Slabo 27px";
+	font-size: 1.4em;
+	text-align: center;
+	float: none;
+	display: block;
+	padding: 2.5% 3.5% 4.5%;
+	height: 12em;
+}
+
+}
+
+
+
